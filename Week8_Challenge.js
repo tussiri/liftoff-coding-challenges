@@ -20,8 +20,8 @@ class Person {
 	constructor(name, age) {
 		this.name = name;
 		this.age = age;
-	}  
-
+	}
+	
 compareAge(other) {
     if (this.age < other.age) {
       return `${other.name} is older than me.`;
@@ -30,5 +30,5 @@ compareAge(other) {
     } else {
       return `${other.name} is the same age as me.`;
     }
-}
+  }
 }

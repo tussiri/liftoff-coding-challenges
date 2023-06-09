@@ -30,3 +30,5 @@ compareAge(other) {
     } else {
       return `${other.name} is the same age as me.`;
     }
+}
+}
